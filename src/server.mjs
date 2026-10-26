@@ -4,7 +4,7 @@
 // Ben C, Oct 2017 - Updated: Oct 2024
 //
 
-const packageJson = JSON.parse(readFileSync(new URL('./package.json', import.meta.url)))
+$const packageJson = JSON.parse(readFileSync(new URL('./package.json', import.meta.url)))
 console.log(`### 🚀 Node.js demo app v${packageJson.version} starting...`)
 
 // Dotenv handy for local config & debugging
